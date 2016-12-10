@@ -2,12 +2,12 @@
 
 > Extendable Error Class for use with `Node >= 4.x`
 
-[![Build Status][travis-image]][travis-url]
-[![Downloads][npm-downloads]][npm-url]
-[![Code Climate][codeclimate-quality]][codeclimate-url]
-[![Coverage Status][codeclimate-coverage]][codeclimate-url]
-[![Dependency Status][dependencyci-image]][dependencyci-url]
-[![Dependencies][david-image]][david-url]
+> [![Build Status][travis-image]][travis-url]
+> [![Downloads][npm-downloads]][npm-url]
+> [![Code Climate][codeclimate-quality]][codeclimate-url]
+> [![Coverage Status][codeclimate-coverage]][codeclimate-url]
+> [![Dependency Status][dependencyci-image]][dependencyci-url]
+> [![Dependencies][david-image]][david-url]
 
 ## Install
 
