@@ -47,9 +47,9 @@ class MyError extends ExtendableError {
 [travis-url]: https://travis-ci.org/ahmadnassri/node-error
 [travis-image]: https://img.shields.io/travis/ahmadnassri/node-error.svg?style=flat-square
 
-[npm-url]: https://www.npmjs.com/package/node-error
-[npm-version]: https://img.shields.io/npm/v/node-error.svg?style=flat-square
-[npm-downloads]: https://img.shields.io/npm/dm/node-error.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/@ahmadnassri/node-error
+[npm-version]: https://img.shields.io/npm/v/@ahmadnassri/node-error.svg?style=flat-square
+[npm-downloads]: https://img.shields.io/npm/dm/@ahmadnassri/node-error.svg?style=flat-square
 
 [codeclimate-url]: https://codeclimate.com/github/ahmadnassri/node-error
 [codeclimate-quality]: https://img.shields.io/codeclimate/github/ahmadnassri/node-error.svg?style=flat-square
