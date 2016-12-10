@@ -1,0 +1,35 @@
+{
+  "version": "0.0.0-development",
+  "name": "@ahmadnassri/error",
+  "description": "Extendable Error Class for use with Node >= 4.x",
+  "author": "Ahmad Nassri <ahmad@ahmadnassri.com> (https://www.ahmadnassri.com/)",
+  "homepage": "https://github.com/ahmadnassri/node-error",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmadnassri/node-error.git"
+  },
+  "license": "ISC",
+  "main": "lib/index.js",
+  "keywords": [
+    "@ahmadnassri/error"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "lib"
+  ],
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/node-error/issues"
+  },
+  "scripts": {
+    "pretest": "snazzy && echint",
+    "test": "tap test",
+    "coverage": "tap test --reporter silent --coverage"
+  },
+  "devDependencies": {
+    "echint": "^2.1.0",
+    "snazzy": "^5.0.0",
+    "tap": "^8.0.1"
+  }
+}
