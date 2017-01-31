@@ -11,7 +11,8 @@
   "license": "ISC",
   "main": "lib/index.js",
   "keywords": [
-    "@ahmadnassri/error"
+    "extendable",
+    "error"
   ],
   "engines": {
     "node": ">=4"
@@ -28,8 +29,8 @@
     "coverage": "tap test --reporter silent --coverage"
   },
   "devDependencies": {
-    "echint": "^3.0.0",
-    "snazzy": "^5.0.0",
-    "tap": "^9.0.0"
+    "echint": "^4.0.1",
+    "snazzy": "^6.0.0",
+    "tap": "^10.0.0"
   }
 }
