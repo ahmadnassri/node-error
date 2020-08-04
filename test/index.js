@@ -1,5 +1,3 @@
-'use strict'
-
 const ExtendableError = require('../lib')
 const test = require('tap').test
 
@@ -11,7 +9,7 @@ const regex = /(\w|\/)+test\/index\.js:\d{2}:\d{2}/
 test('Empty ExtendableError', assert => {
   assert.plan(5)
 
-  let err = new ExtendableError()
+  const err = new ExtendableError()
 
   assert.type(err, ExtendableError)
 
@@ -24,7 +22,7 @@ test('Empty ExtendableError', assert => {
 test('ExtendableError instance of Error', assert => {
   assert.plan(6)
 
-  let err = new ExtendableError('error occurred')
+  const err = new ExtendableError('error occurred')
 
   assert.type(err, ExtendableError)
   assert.type(err, Error)
@@ -38,7 +36,7 @@ test('ExtendableError instance of Error', assert => {
 test('TestError instance of ExtendableError', assert => {
   assert.plan(7)
 
-  let err = new TestError('error occurred')
+  const err = new TestError('error occurred')
 
   assert.type(err, TestError)
   assert.type(err, ExtendableError)
@@ -53,7 +51,7 @@ test('TestError instance of ExtendableError', assert => {
 test('SubTestError instance of TestError', assert => {
   assert.plan(8)
 
-  let err = new SubTestError('error occurred')
+  const err = new SubTestError('error occurred')
 
   assert.type(err, SubTestError)
   assert.type(err, TestError)
@@ -69,11 +67,11 @@ test('SubTestError instance of TestError', assert => {
 test('Stacking Errors', assert => {
   assert.plan(6)
 
-  let error = new Error('error occurred')
+  const error = new Error('error occurred')
   error.code = 10
   error.foo = 'bar'
 
-  let err = new ExtendableError(error)
+  const err = new ExtendableError(error)
 
   assert.type(err, ExtendableError)
   assert.type(err, Error)
@@ -92,7 +90,7 @@ test('Manual captureStackTrace', assert => {
 
   delete Error.captureStackTrace
 
-  let err = new ExtendableError('error occurred')
+  const err = new ExtendableError('error occurred')
 
   assert.type(err, ExtendableError)
   assert.type(err, Error)

@@ -1,4 +1,26 @@
-# Extendable Error [![version][npm-version]][npm-url] [![License][license-image]][license-url] [![Build Status][travis-image]][travis-url] [![Downloads][npm-downloads]][npm-url] [![Coverage Status][codeclimate-coverage]][codeclimate-url]
+# Extendable Error 
+
+[![license][license-image]][license-url]
+[![version][npm-image]][npm-url]
+[![super linter][super-linter-image]][super-linter-url]
+[![test][test-image]][test-url]
+[![release][release-image]][release-url]
+
+[license-url]: LICENSE
+[license-image]: https://img.shields.io/github/license/ahmadnassri/node-error.svg?logo=circleci
+
+[npm-url]: https://www.npmjs.com/package/@ahmadnassri/error
+[npm-image]: https://img.shields.io/npm/v/@ahmadnassri/error.svg?logo=npm
+
+[super-linter-url]: https://github.com/ahmadnassri/node-error/actions?query=workflow%3Asuper-linter
+[super-linter-image]: https://github.com/ahmadnassri/node-error/workflows/super-linter/badge.svg
+
+[test-url]: https://github.com/ahmadnassri/node-error/actions?query=workflow%3Atest
+[test-image]: https://github.com/ahmadnassri/node-error/workflows/test/badge.svg
+
+[release-url]: https://github.com/ahmadnassri/node-error/actions?query=workflow%3Arelease
+[release-image]: https://github.com/ahmadnassri/node-error/workflows/release/badge.svg
+
 
 > Extendable Error Class for use with `Node >= 4.x`
 
