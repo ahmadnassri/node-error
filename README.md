@@ -1,38 +1,20 @@
-# Extendable Error 
+# Extendable Error
 
-[![license][license-image]][license-url]
-[![version][npm-image]][npm-url]
-[![super linter][super-linter-image]][super-linter-url]
-[![test][test-image]][test-url]
-[![release][release-image]][release-url]
+Extendable Error Class for use with Node.js
 
-[license-url]: LICENSE
-[license-image]: https://img.shields.io/github/license/ahmadnassri/node-error.svg?logo=circleci
-
-[npm-url]: https://www.npmjs.com/package/@ahmadnassri/error
-[npm-image]: https://img.shields.io/npm/v/@ahmadnassri/error.svg?logo=npm
-
-[super-linter-url]: https://github.com/ahmadnassri/node-error/actions?query=workflow%3Asuper-linter
-[super-linter-image]: https://github.com/ahmadnassri/node-error/workflows/super-linter/badge.svg
-
-[test-url]: https://github.com/ahmadnassri/node-error/actions?query=workflow%3Atest
-[test-image]: https://github.com/ahmadnassri/node-error/workflows/test/badge.svg
-
-[release-url]: https://github.com/ahmadnassri/node-error/actions?query=workflow%3Arelease
-[release-image]: https://github.com/ahmadnassri/node-error/workflows/release/badge.svg
-
-
-> Extendable Error Class for use with `Node >= 4.x`
+[![license][license-img]][license-url]
+[![release][release-img]][release-url]
+[![semantic][semantic-img]][semantic-url]
 
 ## Install
 
-```bash
+``` bash
 npm install --production --save @ahmadnassri/error
 ```
 
 ## Usage
 
-```js
+``` js
 const ExtendableError = require('@ahmadnassri/error')
 
 class MyError extends ExtendableError {
@@ -51,20 +33,14 @@ class MyError extends ExtendableError {
 ```
 
 ----
-> License: [ISC][license-url] &bull; 
-> Copyright: [ahmadnassri.com](https://www.ahmadnassri.com) &bull; 
-> Github: [@ahmadnassri](https://github.com/ahmadnassri) &bull; 
-> Twitter: [@ahmadnassri](https://twitter.com/ahmadnassri)
+> Author: [Ahmad Nassri](https://www.ahmadnassri.com/) &bull;
+> Twitter: [@AhmadNassri](https://twitter.com/AhmadNassri)
 
-[license-url]: http://choosealicense.com/licenses/isc/
-[license-image]: https://img.shields.io/github/license/ahmadnassri/node-error.svg?style=flat-square
+[license-url]: LICENSE
+[license-img]: https://badgen.net/github/license/ahmadnassri/node-error
 
-[travis-url]: https://travis-ci.org/ahmadnassri/node-error
-[travis-image]: https://img.shields.io/travis/ahmadnassri/node-error.svg?style=flat-square
+[release-url]: https://github.com/ahmadnassri/node-error/releases
+[release-img]: https://badgen.net/github/release/ahmadnassri/node-error
 
-[npm-url]: https://www.npmjs.com/package/node-error
-[npm-version]: https://img.shields.io/npm/v/node-error.svg?style=flat-square
-[npm-downloads]: https://img.shields.io/npm/dm/node-error.svg?style=flat-square
-
-[codeclimate-url]: https://codeclimate.com/github/ahmadnassri/node-error
-[codeclimate-coverage]: https://api.codeclimate.com/v1/badges/2a5d985933028c4fc4c6/test_coverage?style=flat-square
+[semantic-url]: https://github.com/ahmadnassri/node-error/actions?query=workflow%3Arelease
+[semantic-img]: https://badgen.net/badge/📦/semantically%20released/blue

@@ -1,0 +1,8 @@
+version: 2.0
+
+id: node-error
+
+about:
+  title: Extendable Error
+  description: Extendable Error Class for use with Node.js
+  repository: ahmadnassri/node-error

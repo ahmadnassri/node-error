@@ -8,26 +8,32 @@
     "type": "git",
     "url": "https://github.com/ahmadnassri/node-error.git"
   },
-  "license": "ISC",
-  "main": "lib/index.js",
+  "bugs": {
+    "url": "https://github.com/ahmadnassri/node-error/issues"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/sponsors/ahmadnassri"
+  },
+  "license": "MIT",
   "keywords": [
     "extendable",
     "error"
   ],
   "engines": {
-    "node": ">=4"
+    "node": ">=14"
   },
   "files": [
     "lib"
   ],
-  "bugs": {
-    "url": "https://github.com/ahmadnassri/node-error/issues"
-  },
+  "main": "lib/index.js",
   "scripts": {
     "test": "tap test --no-coverage",
-    "test:100": "tap test --100 --coverage-report=lcov --no-browser"
+    "test:watch": "tap test --watch",
+    "test:ci": "tap test --100",
+    "test:report": "opener coverage/lcov-report/index.html"
   },
   "devDependencies": {
-    "tap": "^14.10.8"
+    "tap": "^16.3.0"
   }
 }
