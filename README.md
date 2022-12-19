@@ -9,7 +9,7 @@ Extendable Error Class for use with Node.js
 ## Install
 
 ``` bash
-npm install --production --save @ahmadnassri/error
+npm install @ahmadnassri/error
 ```
 
 ## Usage
